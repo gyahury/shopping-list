@@ -4,12 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shopping List</title>
-    <script src='main.js' defer></script>
+    <script src="main.js" defer></script>
     <link rel="stylesheet" href="style.css" />
     <link
+      rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined"
       rel="stylesheet"
     />
   </head>
-  <body></body>
+  <body>
+    <section class="list">
+      <header class="header">Shopping List</header>
+      <ul class="items">
+        <li class="item-row">
+          <div class="item">
+            <span class="item-name">호박</span>
+            <button class="item-delete">
+              <span class="material-symbols-outlined"> delete </span>
+            </button>
+          </div>
+        </li>
+      </ul>
+      <footer class="footer">
+        <input type="text" class="footer-input" />
+        <button class="footer-button">
+          <span class="material-symbols-outlined"> add </span>
+        </button>
+      </footer>
+    </section>
+  </body>
 </html>
