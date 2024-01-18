@@ -10,6 +10,7 @@ ul {
 
 body {
     text-align: center;
+    background-color: #ced3df;
 }
 
 button {
@@ -21,7 +22,7 @@ button {
 }
 
 .list{
-    width: 700px;
+    width: 450px;
     margin: auto;
     background-color: #fdfdf8;
     border-radius: 14px;
@@ -46,7 +47,7 @@ button {
     display: flex;
     justify-content: space-between;
     font-size: 18px;
-    padding: 20px 150px;
+    padding: 7px 70px;
 }
 
 .item-divider {
@@ -57,11 +58,12 @@ button {
 }
 
 .item-delete {
+    transform: scale(0.9s);
     transition: all 100ms ease-in;
 }
 
 .item-delete:hover {
-    color : rgb(48, 48, 48);
+    color : red;
     transform: scale(1.1);
 }
 
