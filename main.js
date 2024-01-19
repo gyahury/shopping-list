@@ -41,7 +41,7 @@ addBtn.addEventListener('click', () => {
   onAdd();
 });
 
-input.addEventListener('keypress', (event) => {
+input.addEventListener('keyup', (event) => {
   if (event.key === 'Enter') {
     onAdd();
   }
